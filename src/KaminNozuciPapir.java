@@ -10,9 +10,11 @@ public class KaminNozuciPapir {
         int guessedNumber = rnd.nextInt(3) + 1 ;
         int user = scanner.nextInt();
         if (user==guessedNumber) {
-            System.out.println("You guessed it, it was  " + guessedNumber);
+            System.out.println("Oh, it was a great draw " + guessedNumber);
+        }else if (user == 2) {
+            System.out.println(" Congratulations, you have won  " + "Cosplayer chose " + guessedNumber);
         }else {
-            System.out.println("Unfortunately, you answered incorrectly " + guessedNumber);
+            System.out.println("Unfortunately, you lost the computer you won ");
         }
     }
 }
