@@ -12,7 +12,7 @@ public class KaminNozuciPapir {
         if (user==guessedNumber) {
             System.out.println("Oh, it was a great draw " + guessedNumber + " Happy yes ");
         }else if (user == 2) {
-            System.out.println(" Congratulations, you have won  " + "Cosplayer chose " + guessedNumber);
+            System.out.println(" Congratulations, you have won  " + "Cosplayer chose happy " + guessedNumber);
         }else {
             System.out.println("Unfortunately, you lost the computer you won ");
         }
